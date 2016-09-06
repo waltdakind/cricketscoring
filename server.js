@@ -7,6 +7,10 @@
 var express    = require('express');        // call express
 var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
+var mongoose   = require('mongoose');
+
+//mlab instance below
+mongoose.connect(process.env.MONGODB_URI);
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
