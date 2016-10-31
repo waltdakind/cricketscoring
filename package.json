@@ -1,9 +1,12 @@
 {
-    "name": "cricketscoring",
-    "main": "server.js",
-    "dependencies": {
-        "express": "~4.0.0",
-        "mongoose": "~3.6.13",
-        "body-parser": "~1.0.1"
-    }
+  "name": "cricketscoring",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "mongoose": "~3.6.13",
+    "body-parser": "~1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
