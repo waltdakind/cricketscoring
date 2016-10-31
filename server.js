@@ -10,6 +10,7 @@ var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
 
 //mlab instance below
+// the MONGODB_URI is an environment variable for deploying to Heroku
 mongoose.connect(process.env.MONGODB_URI);
 
 // configure app to use bodyParser()
@@ -31,13 +32,14 @@ router.get('/', function(req, res) {
 // scoring routes -- add modifiers
 
 router.put('/20', function(req, res) {
-    res.json({ message: 'darts are fun!' });   
+    // call a function to see if this number is open and adjust score accordingly
+    res.json({ message: 'add 20 to score!' });   
 });
 router.put('/19', function(req, res) {
-    res.json({ message: 'darts are fun!' });   
+    res.json({ message: 'add 20 to score!' });   
 });
 router.put('/18', function(req, res) {
-    res.json({ message: 'darts are fun!' });   
+    res.json({ message: 'add 20 to score!' });   
 });
 router.put('/17', function(req, res) {
     res.json({ message: 'darts are fun!' });   
