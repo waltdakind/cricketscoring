@@ -2,9 +2,12 @@
   "name": "cricketscoring",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "~1.0.1",
     "express": "~4.0.0",
-    "mongoose": "~3.6.13",
-    "body-parser": "~1.0.1"
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "mongoose": "~3.6.13"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

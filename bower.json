@@ -1,0 +1,26 @@
+{
+  "name": "cricketscoring",
+  "description": "dart scoring app",
+  "main": "server.js",
+  "authors": [
+    "Walter Mattingly <waltdakind@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "darts",
+    "js",
+    "sass",
+    "node"
+  ],
+  "homepage": "https://github.com/waltdakind/cricketscoring",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
